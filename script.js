@@ -78,7 +78,7 @@ async function gsrun(client,id)
         // console.log(index);
         const opt2 = {
             spreadsheetId : '1uHOdaG7P7y0zarlB8kakfB_DbAnk2aIRKg8wYt1jNKk',
-            range: 'Form Responses 1'
+            range: 'Form Responses'
         };
         let info = await gsapi.spreadsheets.values.get(opt2);
         let dataArray = info.data.values;
